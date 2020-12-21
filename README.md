@@ -7,28 +7,25 @@
 | Command | Description |
 | --- | --- |
 | --- | **Админка** |
-
-| **{$urls|@var_dump}** | -> Contains Prestashop urls; |
-| **{$shop|@var_dump}** | -> Contains shop variables (shop name, email, phone, etc...); |
-| **{$page|@var_dump}** | -> Contains current page variables; |
-| **{$currency|@var_dump}** | -> Currency variables; |
-| **{$language|@var_dump}** | -> Language variables; |
-| **{$customer|@var_dump}** | -> Customer variables; |
-| **{$configuration|@var_dump}** | -> Configuration variables; |
-
-| **{$link|@var_dump}** | -> Link variables; |
-
-| **{$breadcrumb|@var_dump}** | -> Breadcrumb variables; |
-
- 
-
+| **{$urls\|@var_dump}** | -> Contains Prestashop urls; |
+| **{$shop\|@var_dump}** | -> Contains shop variables (shop name, email, phone, etc...); |
+| **{$page\|@var_dump}** | -> Contains current page variables; |
+| **{$currency\|@var_dump}** | -> Currency variables; |
+| **{$language\|@var_dump}** | -> Language variables; |
+| **{$customer\|@var_dump}** | -> Customer variables; |
+| **{$configuration\|@var_dump}** | -> Configuration variables; |
+| --- | --- |
+| **{$link\|@var_dump}** | -> Link variables; |
+| --- | --- |
+| **{$breadcrumb\|@var_dump}** | -> Breadcrumb variables; |
+| --- | --- |
 | --- | **And here are some ready-tu-use variables:** |
- 
+| --- | --- |
 | **{$currency.name}** | -> Name of the active currency.  |
 | **{$currency.iso_code}** | -> ISO language code enabled.  |
 | **{$currency.sign}** | -> Symbol of the active currency  |
 | **{$currency.iso_code_num}** | -> Active Currency ISO Code |
- 
+| --- | --- |
 | **{$shop.name}** | -> Store name in Prestashop 1.7  |
 | **{$shop.email}** | -> Store Email in Prestashop 1.7  |
 | **{$shop.logo}** | -> Image routing store logo in Prestashop 1.7  |
@@ -41,14 +38,14 @@
 | **{$shop.address.country}** | -> Shop Country in Prestashop 1.7  |
 | **{$shop.phone}** | -> Store phone in Prestashop 1.7  |
 | **{$shop.fax}** | -> Store Fax in Prestashop 1.7 |
- 
+| --- | --- |
 | **{$language.name}** | -> Language name enabled  |
 | **{$language.iso_code}** | -> ISO language code enabled  |
 | **{$language.language_code}** | -> Language code enabled (for Spanish, fr for French, tc ..)  |
 | **{$language.is_rtl}** | -> (1 -> On / 0 Off (for when language is written from right to left)  |
 | **{$language.format_lite}** | and {$ language.format_full} -> Simulated date format and full date format  |
 | **{$language.id}** | -> Language ID enabled |
- 
+| --- | --- |
 | **{$customer.lastname}** | -> Customer Last Name in Prestashop 1.7 |
 | **{$customer.firstname}** | -> Client Name Prestashop 1.7 |
 | **{$customer.email}** | -> Prestashop Customer Email 1.7 |
@@ -82,7 +79,7 @@
 | **{$customer.addresses [iD Address] .dni}** | -> Address ID |
 | **{$customer.addresses [Address ID] .vat_number}** | -> Customer VAT number |
 | **{$customer.addresses [Address ID] .formatted}** | -> Client formatted address |
- 
+| --- | --- |
 | **{$urls.base_url}** | -> Store address  |
 | **{$urls.current_url}** | -> Current address (url) where we are  |
 | **{$urls.shop_domain_url}** | -> Store domain  |
