@@ -7,7 +7,11 @@
 | Command | Description |
 | --- | --- |
 | --- | **Админка** |
-| **{$urls\|@var_dump}** | -> Contains Prestashop urls; |
+| **{$urls\|@var_dump}** | -> Содержит Prestashop urls; |
+| **{$urls.base_url}** | Базовый url магазина в виде http://bookattic.ru/; |
+| **{$urls.current_url}** | Текущий url магазина в виде http://bookattic.ru/; |
+
+| --- | --- |
 | **{$shop\|@var_dump}** | -> Содержит данные магазина (название, email, телефон, прочее...); |
 | **{$shop.name}** | Имя магазина; |
 | **{$shop.email}** | E-mail магазина; |
