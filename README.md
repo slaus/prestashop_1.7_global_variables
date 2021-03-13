@@ -8,7 +8,20 @@
 | --- | --- |
 | --- | **Админка** |
 | **{$urls\|@var_dump}** | -> Contains Prestashop urls; |
-| **{$shop\|@var_dump}** | -> Contains shop variables (shop name, email, phone, etc...); |
+| **{$shop.name}** | Имя магазина; |
+| **{$shop.email}** | E-mail магазина; |
+| **{$shop.logo}** | Логотип магазина в виде /img/logo.jpg; |
+| **{$shop.stores_icon}** | Изображение магазина в виде /img/logo_stores.png; |
+| **{$shop.favicon}** | Иконка магазина в виде /img/favicon.ico; |
+| **{$shop.phone}** | Телефон магазина; |
+| **{$shop.address.formatted}** | Форматированный адрес магазина в виде Bookattic<br>Днепропетровская ул.<br>Москва<br>Russian Federation; |
+| **{$shop.address.address1}** | Адрес 1 магазина; |
+| **{$shop.address.address2}** | Адрес 2 магазина; |
+| **{$shop.address.postcode}** | Почтовый индекс магазина; |
+| **{$shop.address.city}** | Город магазина; |
+| **{$shop.address.state}** | Штат, область магазина; |
+| **{$shop.address.country}** | Страна магазина; |
+| **{$shop\|@var_dump}** | -> Содержит данные магазина (название, email, телефон, прочее...); |
 | **{$page\|@var_dump}** | -> Содержит данные текущей страницы; |
 | **{$page.title}** | Заглавие страницы; |
 | **{$page.description}** | Описание страницы; |
