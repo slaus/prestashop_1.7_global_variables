@@ -8,8 +8,16 @@
 | --- | --- |
 | --- | **Админка** |
 | **{$urls\|@var_dump}** | -> Содержит Prestashop urls; |
-| **{$urls.base_url}** | Базовый url магазина в виде http:\/\/bookattic.ru\/; |
-| **{$urls.current_url}** | Текущий url магазина в виде http://bookattic.ru/; |
+| **{$urls.base_url}** | Базовый url магазина в виде http://site.com/; |
+| **{$urls.current_url}** | Текущий url магазина в виде http://site.com/; |
+| **{$urls.shop_domain_url}** | Домен url магазина без слэша в виде http://site.com; |
+| **{$urls.img_ps_url}** | Папка картинок в виде http://site.com/img/; |
+| **{$urls.img_cat_url}** | Папка картинок категорий в виде http://site.com/img/c/; |
+| **{$urls.img_lang_url}** | Папка картинок языков в виде http://site.com/img/l/; |
+| **{$urls.img_prod_url}** | Папка картинок товаров в виде http://site.com/img/p/; |
+| **{$urls.img_url}** | Папка картинок темы в виде http://site.com/themes/theme_name/assets/img/; |
+| **{$urls.css_url}** | Папка стилей темы в виде http://site.com/themes/theme_name/assets/css/; |
+| **{$urls.js_url}** | Папка скриптов темы в виде http://site.com/themes/theme_name/assets/js/; |
 | --- | --- |
 | **{$shop\|@var_dump}** | -> Содержит данные магазина (название, email, телефон, прочее...); |
 | **{$shop.name}** | Имя магазина; |
