@@ -36,10 +36,10 @@
 | **{$shop.address.country}** | Страна магазина; |
 | --- | --- |
 | **{$page\|@var_dump}** | -> Содержит данные текущей страницы; |
-| **{$page.title}** | Заглавие страницы; |
-| **{$page.description}** | Описание страницы; |
-| **{$page.keywords}** | Ключевые слова страницы; |
-| **{$page.robots}** | Роботс страницы; |
+| **{$page.meta.title}** | Заглавие страницы; |
+| **{$page.meta.description}** | Описание страницы; |
+| **{$page.meta.keywords}** | Ключевые слова страницы; |
+| **{$page.meta.robots}** | Роботс страницы; |
 | **{$page.page_name}** | Название страницы; |
 | --- | --- |
 | **{$currency\|@var_dump}** | -> Currency variables; |
