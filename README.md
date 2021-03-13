@@ -43,6 +43,13 @@
 | **{$page.page_name}** | Название страницы; |
 | --- | --- |
 | **{$product\|@var_dump}** | -> Содержит данные текущего товара; |
+| **{$product.name}** | -> Содержит название текущего товара; |
+| **{$product.reference}** | -> Содержит артикул текущего товара; |
+| **{$product.ean13}** | -> Содержит EAN текущего товара; |
+| **{$product.isbn}** | -> Содержит ISBN текущего товара; |
+| **{$product.upc}** | -> Содержит UPS текущего товара; |
+| **{$product.price}** | -> Содержит цену текущего товара в виде 259 000,00 ₽; |
+| **{$product.images.0.bySize.small_default.url}** | -> Содержит ссылку на маленькую картинку текущего товара; |
 | --- | --- |
 | **{$currency\|@var_dump}** | -> Currency variables; |
 | **{$language\|@var_dump}** | -> Language variables; |
