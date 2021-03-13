@@ -10,7 +10,7 @@
 | **{$urls\|@var_dump}** | -> Contains Prestashop urls; |
 | **{$shop\|@var_dump}** | -> Contains shop variables (shop name, email, phone, etc...); |
 | **{$page\|@var_dump}** | -> Содержит данные текущей страницы; |
-| **{$page.title}** | -> Заглавие страницы; |
+| **{$page.title}** | Заглавие страницы; |
 | **{$page.description}** | Описание страницы; |
 | **{$page.keywords}** | Ключевые слова страницы; |
 | **{$page.robots}** | Роботс страницы; |
