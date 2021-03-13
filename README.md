@@ -50,6 +50,7 @@
 | **{$product.upc}** | -> Содержит UPS текущего товара; |
 | **{$product.price}** | -> Содержит цену текущего товара в виде 259 000,00 ₽; |
 | **{$product.images.0.bySize.small_default.url}** | -> Ссылка на маленькую картинку текущего товара в виде http://site.com/110-small_default/image.jpg; |
+| **{$product.images.0.bySize.home_default.url}** | -> Ссылка на стандартную картинку текущего товара в виде http://site.com/110-home_default/image.jpg; |
 | --- | --- |
 | **{$currency\|@var_dump}** | -> Currency variables; |
 | **{$language\|@var_dump}** | -> Language variables; |
