@@ -8,6 +8,7 @@
 | --- | --- |
 | --- | **Админка** |
 | **{$urls\|@var_dump}** | -> Contains Prestashop urls; |
+| **{$shop\|@var_dump}** | -> Содержит данные магазина (название, email, телефон, прочее...); |
 | **{$shop.name}** | Имя магазина; |
 | **{$shop.email}** | E-mail магазина; |
 | **{$shop.logo}** | Логотип магазина в виде /img/logo.jpg; |
@@ -21,13 +22,14 @@
 | **{$shop.address.city}** | Город магазина; |
 | **{$shop.address.state}** | Штат, область магазина; |
 | **{$shop.address.country}** | Страна магазина; |
-| **{$shop\|@var_dump}** | -> Содержит данные магазина (название, email, телефон, прочее...); |
+| --- | --- |
 | **{$page\|@var_dump}** | -> Содержит данные текущей страницы; |
 | **{$page.title}** | Заглавие страницы; |
 | **{$page.description}** | Описание страницы; |
 | **{$page.keywords}** | Ключевые слова страницы; |
 | **{$page.robots}** | Роботс страницы; |
 | **{$page.page_name}** | Название страницы; |
+| --- | --- |
 | **{$currency\|@var_dump}** | -> Currency variables; |
 | **{$language\|@var_dump}** | -> Language variables; |
 | **{$customer\|@var_dump}** | -> Customer variables; |
