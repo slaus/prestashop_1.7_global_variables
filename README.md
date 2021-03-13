@@ -15,6 +15,7 @@
 | **{$shop.stores_icon}** | Изображение магазина в виде /img/logo_stores.png; |
 | **{$shop.favicon}** | Иконка магазина в виде /img/favicon.ico; |
 | **{$shop.phone}** | Телефон магазина; |
+| **{$shop.fax}** | Факс магазина; |
 | **{$shop.address.formatted}** | Форматированный адрес магазина в виде Bookattic<br>Днепропетровская ул.<br>Москва<br>Russian Federation; |
 | **{$shop.address.address1}** | Адрес 1 магазина; |
 | **{$shop.address.address2}** | Адрес 2 магазина; |
