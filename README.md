@@ -42,6 +42,8 @@
 | **{$page.meta.robots}** | Роботс страницы; |
 | **{$page.page_name}** | Название страницы; |
 | --- | --- |
+| **{$product\|@var_dump}** | -> Содержит данные текущего товара; |
+| --- | --- |
 | **{$currency\|@var_dump}** | -> Currency variables; |
 | **{$language\|@var_dump}** | -> Language variables; |
 | **{$customer\|@var_dump}** | -> Customer variables; |
