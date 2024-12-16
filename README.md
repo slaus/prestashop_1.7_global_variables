@@ -27,6 +27,7 @@
 | **{$shop.favicon}** | Иконка магазина в виде /img/favicon.ico; |
 | **{$shop.phone}** | Телефон магазина; |
 | **{$shop.fax}** | Факс магазина; |
+| **{$shop.registration_number}** | Регистрационные данные компании; |
 | **{$shop.address.formatted}** | Форматированный адрес магазина в виде Bookattic<br>Днепропетровская ул.<br>Москва<br>Russian Federation; |
 | **{$shop.address.address1}** | Адрес 1 магазина; |
 | **{$shop.address.address2}** | Адрес 2 магазина; |
@@ -63,6 +64,7 @@
 | --- | --- |
 | --- | **And here are some ready-tu-use variables:** |
 | --- | --- |
+| **{$link->getCMSLink(2)}** | -> Ссылка на cms страницу с id=2.  |
 | **{$currency.name}** | -> Name of the active currency.  |
 | **{$currency.iso_code}** | -> ISO language code enabled.  |
 | **{$currency.sign}** | -> Symbol of the active currency  |
